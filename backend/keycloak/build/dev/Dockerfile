@@ -2,6 +2,3 @@ ARG IMAGE_VERSION
 FROM jboss/keycloak
 
 ENV LANG pt_BR.utf8
-
-RUN echo "DB_USER=$DB_USER"
-RUN echo "DB_PASSWORD=$DB_PASSWORD"
