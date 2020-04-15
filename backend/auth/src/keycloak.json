@@ -1,6 +1,6 @@
 {
     "realm": "hercilio-keycloak",
-    "auth-server-url": "http://192.168.15.113:8080/auth",
+    "auth-server-url": "http://host.docker.internal:8080/auth",
     "ssl-required": "external",
     "resource": "teste",
     "public-client": true,
